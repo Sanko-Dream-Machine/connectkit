@@ -16,10 +16,7 @@
   "engines": {
     "node": ">=12.4"
   },
-  "files": [
-    "build",
-    "README.md"
-  ],
+  "files": ["build", "README.md"],
   "scripts": {
     "start": "rollup --config rollup.config.dev.js -w",
     "dev": "rollup --config rollup.config.dev.js -w",
